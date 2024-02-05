@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Valentine's Proposal</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Mainprompt">
+            <img class="image" src="https://scontent.xx.fbcdn.net/v/t1.15752-9/422769184_268790229432645_6273289420581016536_n.jpg?stp=dst-jpg_s206x206&_nc_cat=108&ccb=1-7&_nc_sid=510075&_nc_ohc=kkCvuXmJZGQAX8yIBwH&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSjyXky5Jmq7NSJGbu3FcJB5zjqIhvmX6kPTnBS7N7bkA&oe=65E8624D"></img>
+            <h1 class="hh" id="name">Hey baby!</h1>
+            <p class="pp" id="question">Will you be my Valentine?</p>
+            <div class="buttons">
+                <button id="no-button" onclick="showMessage('No')">No</button>
+                <button onclick="showMessage('Yes')" id="yesButton">Yes</button>
+            </div>
+            <div class="hidden-message" id="no-message">
+                <p>Nice try, but no is not an option!</p>
+            </div>
+            <div class="hidden-message" id="yes-message">
+                <p>YAY! See you on the 14th, babygirl.</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
