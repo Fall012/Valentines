@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lobster', cursive; /* Change to a romantic cursive font */
+    font-family: 'Lobster', cursive; 
     background-color: #ffdde1;
     display: flex;
     align-items: center;
@@ -52,7 +52,7 @@ body
     font-size: 26px;
     cursor: pointer;
     position: relative;
-    font-family: 'Lobster', cursive; /* Change to a romantic cursive font */
+    font-family: 'Lobster', cursive; 
 
 }
 
